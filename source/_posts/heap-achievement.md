@@ -8,17 +8,15 @@ Heap is a common data structure as a kind of binary tree. Here we are aiming at 
 
 Achievement of the heap using python is only relying on the data structure list.
 
-By the index $i$ of any element in the list, we can get its parent node index as 
+By the index $$i$$ of any element in the list, we can get its parent node index as 
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= i_{parent} = (i - 1) // 2" style="border:none;">
+<img src="http://latex.codecogs.com/gif.latex?i_{parent} = (i - 1) // 2" />
 
-$i_{parent} = (i - 1) // 2$ and its child nodes 
+  and its child nodes 
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= $i_{left}=2*i + 1$" style="border:none;">
+<img src="http://latex.codecogs.com/gif.latex?i_{left} = 2 * i + 1" />
 
-$i_{left} = 2 * i + 1$, $i_{right} = 2 * i + 2$
-
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= i_{right} = 2 * i + 2" style="border:none;">
+<img src="http://latex.codecogs.com/gif.latex?i_{left} = 2 * i + 2" />
 
 There are two adjustment strategies for keeping the rules of this minimum heap.
 
