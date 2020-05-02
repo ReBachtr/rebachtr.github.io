@@ -1,7 +1,7 @@
 ---
 title: heap_achievement
 date: 2020-04-30 17:15:12
-tags: Algorithms
+tags: Algorithms Data_structure
 ---
 
 Heap is a common data structure as a kind of binary tree. Here we are aiming at the minimum heap, which follows the rules that the value of root is less than any its node in the tree, as well as the roots of any subtrees in the heap.
@@ -10,13 +10,11 @@ Achievement of the heap using python is only relying on the data structure list.
 
 By the index $$i$$ of any element in the list, we can get its parent node index as 
 
-<img src="http://latex.codecogs.com/gif.latex?i_{parent} = (i - 1) // 2" />
+i_{parent} = (i - 1) // 2
 
   and its child nodes 
 
-<img src="http://latex.codecogs.com/gif.latex?i_{left} = 2 * i + 1" />
-
-<img src="http://latex.codecogs.com/gif.latex?i_{left} = 2 * i + 2" />
+i_{left} = 2 * i + 1, i_{left} = 2 * i + 2
 
 There are two adjustment strategies for keeping the rules of this minimum heap.
 
